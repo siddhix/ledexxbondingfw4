@@ -29,7 +29,7 @@ jobs:
 
     # 2. 缓存 SDK 和 feeds
     - name: Cache SDK and feeds
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           ./dl
